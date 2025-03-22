@@ -232,13 +232,7 @@ const Banner = ({imgbackgound , heading , sub1 , sub2}) => {
                 <p className="text-1xl text-gray-400 mb-10 pd-5 drop-shadow-[4px_6px_2px_purple]">
                 {sub2}
                 </p>
-                <motion.button 
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    className="px-8 py-3 rounded-md text-lg font-semibold text-white bg-gradient-to-r from-purple-600 to-blue-500 border-2 border-white shadow-lg hover:shadow-purple-500/50 transition"
-                >
-                    Learn More
-                </motion.button>
+            
             </motion.div>       
         </div>
     );
